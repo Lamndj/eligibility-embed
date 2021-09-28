@@ -5,7 +5,7 @@ const btn = document.getElementById("elig-btn");
 const domain = "enterprise.therapyfynd.co";
 
 const frame = document.createElement("iframe");
-frame.src = `http://${domain}/eligiblity/check`;
+frame.src = `https://${domain}/eligiblity/check`;
 frame.style.backgroundColor = "rgb(255, 255, 255)";
 frame.style.height = "auto";
 frame.style.position = "absolute";
